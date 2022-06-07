@@ -22,7 +22,7 @@ class CategoryAdapter( var category: List<Category>, var context: Context) : Rec
         myViewHolder.title.text = category.categoryName
         Glide.with(context)
             .load(category.icon)
-            .into(myViewHolder.imgCategory);
+            .into(myViewHolder.imgCategory)
 
     }
 
